@@ -4,6 +4,7 @@ import {HomeComponent} from "./components/home/home.component";
 import {FeedComponent} from "./components/feed/feed.component";
 import {SearchComponent} from "./components/search/search.component";
 import { ProfileComponent } from './components/profile/profile.component';
+import { Component } from '@angular/core/core';
 
 /**
  * This array contains all of the routes. Every route constitutes of a 'path' and a component which is used as a
@@ -24,6 +25,7 @@ export const routes: Routes = [
   {path: 'feed', component: FeedComponent},
   {path: 'search', component: SearchComponent},
   //add the 'profile' route
+  {path: 'profile', component: ProfileComponent},
   {path: '**', component: HomeComponent},
 ];
 
